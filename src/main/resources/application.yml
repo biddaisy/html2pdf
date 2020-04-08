@@ -1,0 +1,14 @@
+# Facelift configuration file
+# Quarkus specific properties, to check the actual meaning go to https://quarkus.io/guides/config
+quarkus:
+    log:
+        level: INFO
+        category:
+            by.radchuk:
+                level: DEBUG
+                
+    http:
+        test-port: 8888                
+                        
+templates:
+    path: templates/
